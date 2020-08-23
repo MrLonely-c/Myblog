@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    cache: false
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+  mvc:
+    favicon:
+      enabled: false
+comment.avatar: /images/avatar.png
+server:
+  port: 80
